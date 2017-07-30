@@ -2,9 +2,9 @@ package com.shapira.examples.consumer.avroclicks;
 
 import JavaSessionize.avro.LogLine;
 
+import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.clients.consumer.*;
 
 import java.util.Collections;
 import java.util.HashMap;
